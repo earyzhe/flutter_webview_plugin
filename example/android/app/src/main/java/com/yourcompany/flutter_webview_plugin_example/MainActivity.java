@@ -1,4 +1,4 @@
-package com.yourcompany.flutter_webview_plugin_example;
+package com.yourcompany.earyzhe_webview_plugin_example;
 
 import android.os.Bundle;
 

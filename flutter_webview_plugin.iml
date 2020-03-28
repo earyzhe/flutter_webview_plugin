@@ -12,7 +12,7 @@
       <excludeFolder url="file://$MODULE_DIR$/example/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/example/android/app/packages" />
       <excludeFolder url="file://$MODULE_DIR$/example/android/app/src/main/java/com/packages" />
-      <excludeFolder url="file://$MODULE_DIR$/example/android/app/src/main/java/com/yourcompany/flutter_webview_plugin_example/packages" />
+      <excludeFolder url="file://$MODULE_DIR$/example/android/app/src/main/java/com/yourcompany/earyzhe_webview_plugin_example/packages" />
       <excludeFolder url="file://$MODULE_DIR$/example/android/app/src/main/java/com/yourcompany/packages" />
       <excludeFolder url="file://$MODULE_DIR$/example/android/app/src/main/java/io/flutter/packages" />
       <excludeFolder url="file://$MODULE_DIR$/example/android/app/src/main/java/io/flutter/plugins/packages" />

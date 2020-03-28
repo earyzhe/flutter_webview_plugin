@@ -1,6 +1,6 @@
-# flutter_webview_plugin_example
+# earyzhe_webview_plugin_example
 
-Demonstrates how to use the flutter_webview_plugin plugin.
+Demonstrates how to use the earyzhe_webview_plugin plugin.
 
 ## Getting Started
 

@@ -1,4 +1,4 @@
-package com.flutter_webview_plugin;
+package com.earyzhe_webview_plugin;
 
 
 import android.app.Activity;
@@ -29,7 +29,7 @@ public class FlutterWebviewPlugin implements MethodCallHandler, PluginRegistry.A
     private WebviewManager webViewManager;
     private Context context;
     static MethodChannel channel;
-    private static final String CHANNEL_NAME = "flutter_webview_plugin";
+    private static final String CHANNEL_NAME = "earyzhe_webview_plugin";
     private static final String JS_CHANNEL_NAMES_FIELD = "javascriptChannelNames";
 
     public static void registerWith(PluginRegistry.Registrar registrar) {

@@ -170,13 +170,13 @@
       "languageVersion": "2.3"
     },
     {
-      "name": "flutter_webview_plugin",
+      "name": "earyzhe_webview_plugin",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     }
   ],
-  "generated": "2020-03-28T20:55:20.123243Z",
+  "generated": "2020-03-28T21:27:27.345540Z",
   "generator": "pub",
   "generatorVersion": "2.7.0"
 }

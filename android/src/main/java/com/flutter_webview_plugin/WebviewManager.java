@@ -1,4 +1,4 @@
-package com.flutter_webview_plugin;
+package com.earyzhe_webview_plugin;
 
 import android.content.Intent;
 import android.net.Uri;

@@ -1,4 +1,4 @@
-name: flutter_webview_plugin
+name: earyzhe_webview_plugin
 description: Plugin that allow Flutter to communicate with a native Webview.
 authors:
 - Hadrien Lejard <hadrien.lejard@gmail.com>
@@ -6,7 +6,7 @@ authors:
 - Pedia <kpedia@163.com>
 - Simon Lightfoot <simon@devangels.london>
 - Rafal Wachol <gorudonu@gmail.com>
-homepage: https://github.com/dart-flitter/flutter_webview_plugin
+homepage: https://github.com/dart-flitter/earyzhe_webview_plugin
 version: 0.3.9+1
 maintainer: Rafal Wachol (@RafalWachol) 
 
@@ -15,7 +15,7 @@ environment:
 
 flutter:
   plugin:
-    androidPackage: com.flutter_webview_plugin
+    androidPackage: com.earyzhe_webview_plugin
     pluginClass: FlutterWebviewPlugin
 
 dependencies:

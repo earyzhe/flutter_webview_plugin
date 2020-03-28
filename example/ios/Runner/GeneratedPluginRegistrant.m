@@ -4,10 +4,10 @@
 
 #import "GeneratedPluginRegistrant.h"
 
-#if __has_include(<flutter_webview_plugin/FlutterWebviewPlugin.h>)
-#import <flutter_webview_plugin/FlutterWebviewPlugin.h>
+#if __has_include(<earyzhe_webview_plugin/FlutterWebviewPlugin.h>)
+#import <earyzhe_webview_plugin/FlutterWebviewPlugin.h>
 #else
-@import flutter_webview_plugin;
+@import earyzhe_webview_plugin;
 #endif
 
 @implementation GeneratedPluginRegistrant

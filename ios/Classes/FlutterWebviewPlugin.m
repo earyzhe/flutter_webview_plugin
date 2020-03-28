@@ -1,7 +1,7 @@
 #import "FlutterWebviewPlugin.h"
 #import "WebviewJavaScriptChannelHandler.h"
 
-static NSString *const CHANNEL_NAME = @"flutter_webview_plugin";
+static NSString *const CHANNEL_NAME = @"earyzhe_webview_plugin";
 
 // UIWebViewDelegate
 @interface FlutterWebviewPlugin() <WKNavigationDelegate, UIScrollViewDelegate, WKUIDelegate> {

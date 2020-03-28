@@ -1,7 +1,7 @@
 package io.flutter.plugins;
 
 import io.flutter.plugin.common.PluginRegistry;
-import com.flutter_webview_plugin.FlutterWebviewPlugin;
+import com.earyzhe_webview_plugin.FlutterWebviewPlugin;
 
 /**
  * Generated file. Do not edit.
@@ -11,7 +11,7 @@ public final class GeneratedPluginRegistrant {
     if (alreadyRegisteredWith(registry)) {
       return;
     }
-    FlutterWebviewPlugin.registerWith(registry.registrarFor("com.flutter_webview_plugin.FlutterWebviewPlugin"));
+    FlutterWebviewPlugin.registerWith(registry.registrarFor("com.earyzhe_webview_plugin.FlutterWebviewPlugin"));
   }
 
   private static boolean alreadyRegisteredWith(PluginRegistry registry) {

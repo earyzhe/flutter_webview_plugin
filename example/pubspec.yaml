@@ -1,10 +1,10 @@
-name: flutter_webview_plugin_example
-description: Demonstrates how to use the flutter_webview_plugin plugin.
+name: earyzhe_webview_plugin_example
+description: Demonstrates how to use the earyzhe_webview_plugin plugin.
 
 dependencies:
   flutter:
     sdk: flutter
-  flutter_webview_plugin:
+  earyzhe_webview_plugin:
     path: ../
 
 flutter:
