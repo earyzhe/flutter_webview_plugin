@@ -17,7 +17,6 @@ class WebviewScaffold extends StatefulWidget {
     this.withJavascript,
     this.clearCache,
     this.clearCookies,
-    this.mediaPlaybackRequiresUserGesture = true,
     this.enableAppScheme,
     this.userAgent,
     this.primary = true,
@@ -40,7 +39,6 @@ class WebviewScaffold extends StatefulWidget {
     this.invalidUrlRegex,
     this.geolocationEnabled,
     this.debuggingEnabled = false,
-    this.ignoreSSLErrors = false,
   }) : super(key: key);
 
   final PreferredSizeWidget appBar;
@@ -50,7 +48,6 @@ class WebviewScaffold extends StatefulWidget {
   final bool withJavascript;
   final bool clearCache;
   final bool clearCookies;
-  final bool mediaPlaybackRequiresUserGesture;
   final bool enableAppScheme;
   final String userAgent;
   final bool primary;
@@ -73,7 +70,6 @@ class WebviewScaffold extends StatefulWidget {
   final bool withOverviewMode;
   final bool useWideViewPort;
   final bool debuggingEnabled;
-  final bool ignoreSSLErrors;
 
   @override
   _WebviewScaffoldState createState() => _WebviewScaffoldState();
@@ -160,7 +156,6 @@ class _WebviewScaffoldState extends State<WebviewScaffold> {
               withJavascript: widget.withJavascript,
               clearCache: widget.clearCache,
               clearCookies: widget.clearCookies,
-              mediaPlaybackRequiresUserGesture: widget.mediaPlaybackRequiresUserGesture,
               hidden: widget.hidden,
               enableAppScheme: widget.enableAppScheme,
               userAgent: widget.userAgent,
@@ -179,7 +174,6 @@ class _WebviewScaffoldState extends State<WebviewScaffold> {
               invalidUrlRegex: widget.invalidUrlRegex,
               geolocationEnabled: widget.geolocationEnabled,
               debuggingEnabled: widget.debuggingEnabled,
-              ignoreSSLErrors: widget.ignoreSSLErrors,
             );
           } else {
             if (_rect != value) {
